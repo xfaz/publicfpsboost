@@ -1,4 +1,10 @@
-   getgenv().brightness = "Mega Sun" -- Sun,Mega Sun,Dark
-getgenv().credit = ".gg/yzVKsYkkwM"
+--[[ ! Some of features only work when script is placed inside autoexec (autoexecution) folder of your exploit. Also recommended to add "!!!" in script name, ex. "!!!MDGGUI.luau" for better effect.
+Got questions/long messages? Contact on Discord [deuces#1961] - *Copy Insides of brackets*
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/loi31/scriptblox/main/fpsboost.lua"))()
+-- DISCORD SERVER https://discord.gg/TZskzaFHrr --
+
+SEND ME A DM IF YOU WANT TO CONTRIBUTE]]
+Delete = { SurfaceAppearance = true, FaceControls = true }--[[ The reason for these bools (toggles):
+SurfaceAppearance - affects the way some textures look and may make some games unplayable (more info - https://create.roblox.com/docs/reference/engine/classes/SurfaceAppearance)
+FaceControls - set to false if you are wearing an animated face yourself. Otherwise it will be detectable as this removes all animations from all faces including yours making yours resemble a pokerface which is NOT normal and IT REPLICATES (more info - https://create.roblox.com/docs/reference/engine/classes/FaceControls)]]
+loadstring(game:HttpGet("https://gist.githubusercontent.com/htt-py/92db22eeefad0042a6da9117501ad827/raw/FPSBooster.luau", true))()
